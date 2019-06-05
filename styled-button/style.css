@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+
+.buttonContainer {
+  width: 50vw;
+}
+
+.deleteButton {
+  background: linear-gradient(#f4b05d, #f19639);
+  border-style: ridge;
+  border-width: 3px;
+  border-color: #808080;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: semi-bold;
+  display: flex;
+  color: #000;
+  align-items: center;
+  font-size: 9vw;
+}
+
+.deleteButton::after{
+  display: inline-flex;
+  height: 2em;
+  width: 2em;
+  margin-left: 10%;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Ccircle cx='50%' cy='50%' r='50%' fill='white' /%3E%3Cpath transform='translate(100 100) scale(1.5)' d='m64.666 51.166c1.2435 1.2435 1.2435 3.2544 0 4.4979l-10.478 10.451c-1.2435 1.2435-3.2544 1.2435-4.4979 0l-17.198-17.357-17.224 17.357c-1.2435 1.2435-3.2544 1.2435-4.4979 0l-10.451-10.478c-1.2435-1.2435-1.2435-3.2544 0-4.4979l17.357-17.198-17.357-17.224c-1.2435-1.2435-1.2435-3.2544 0-4.4979l10.478-10.478c1.2435-1.2435 3.2544-1.2435 4.4979 0l17.198 17.383 17.224-17.357c1.2435-1.2435 3.2544-1.2435 4.4979 0l10.478 10.478c1.2435 1.2435 1.2435 3.2544 0 4.4979l-17.383 17.198z'/%3E%3C/svg%3E");
+}
