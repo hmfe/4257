@@ -1,0 +1,42 @@
+.search-form {
+  width: 110%;
+}
+
+.search-input, .search-clear {
+  position: relative;
+}
+
+.search-input {
+  width: 90%;
+}
+
+.search-input:not(:valid) ~ .search-clear {
+  display: none;
+}
+
+.search-clear {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0 solid transparent;
+  background: none;
+  outline: none;
+  width: 0px;
+}
+
+.search-clear::after {
+  content: "×";
+  display: block;
+  width: 2em;
+  height: 1.5em;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 1em;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}

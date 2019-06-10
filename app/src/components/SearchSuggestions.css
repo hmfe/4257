@@ -1,0 +1,17 @@
+.search-suggestions {
+  width: 98%;
+  list-style-type: none;
+  word-wrap: break-word;
+  max-height: 10rem;
+  overflow-y: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.search-suggestions-item {
+  background-color: none;
+}
+
+.search-suggestions-item--selected {
+  background-color: LightGrey;
+}
